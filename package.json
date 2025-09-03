@@ -1,8 +1,8 @@
 {
-  "name": "react-portfolio-template",
+  "name": "react-portfolio-template-master1",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://yujisatojr.github.io/react-portfolio-template",
+  "homepage": "https://AtomWo.github.io/react-portfolio-template-master1",
   "dependencies": {
     "@emotion/react": "^11.11.4",
     "@emotion/styled": "^11.11.5",
@@ -54,7 +54,6 @@
     ]
   },
   "devDependencies": {
-    "@types/react-vertical-timeline-component": "^3.3.6",
-    "gh-pages": "^6.3.0"
+    "@types/react-vertical-timeline-component": "^3.3.6"
   }
 }
