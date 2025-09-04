@@ -2,7 +2,7 @@ import React from "react";
 import GitHubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import '../assets/styles/Main.scss';
-import 'Screenshot 2024-07-12 at 11.26.13 PM.png'
+import profilePic from '../assets/images/profilepic.png';
 
 function Main() {
 
@@ -10,7 +10,7 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="Screenshot 2024-07-12 at 11.26.13 PM.png" alt="Avatar" />
+          <img src={profilePic} alt="Adam Wong" />
         </div>
         <div className="content">
           <div className="social_icons">
