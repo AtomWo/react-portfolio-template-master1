@@ -4,7 +4,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faBriefcase } from '@fortawesome/free-solid-svg-icons';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import '../assets/styles/Timeline.scss'
+import '../assets/styles/Timeline.scss';
+// Import company logos
+import gafLogo from '../assets/images/GAF_Energy_logo.png';
+import bayerLogo from '../assets/images/Logo_Bayer.svg.png';
+import ucdavisLogo from '../assets/images/davis.png';
 
 function Timeline() {
   return (
@@ -16,50 +20,44 @@ function Timeline() {
             className="vertical-timeline-element--work"
             contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
             contentArrowStyle={{ borderRight: '7px solid  white' }}
-            date="2022 - present"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            date="June 2025 - August 2025"
+            iconStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            icon={<img src={gafLogo} alt="GAF Energy" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />}
           >
-            <h3 className="vertical-timeline-element-title">Technology Consultant</h3>
-            <h4 className="vertical-timeline-element-subtitle">Dallas, TX</h4>
+            <h3 className="vertical-timeline-element-title">Electro-Mechanical Engineer</h3>
+            <h4 className="vertical-timeline-element-subtitle">GAF Energy</h4>
             <p>
-              Full-stack Web Development, GenAI/LLM, Project Management, Business Development
+              Graphical User Interface Development, Power Biasing Design, Data Acquisition
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2020 - 2022"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="June 2024 - December 2024"
+            iconStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            icon={<img src={bayerLogo} alt="Bayer" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />}
           >
-            <h3 className="vertical-timeline-element-title">Full Stack Engineer</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">Central Utilities Electrical Engineering Intern</h3>
+            <h4 className="vertical-timeline-element-subtitle">Bayer Pharmaceuticals</h4>
             <p>
-              Frontend Development, Backend Development, User Experience, Team Leading
+              Power Systems, Low/Medium Voltage Maintenance, Electrical Safety, NFPA 70E, ArcFlash Studies, Power Factor Intrinsic Analysis
             </p>
           </VerticalTimelineElement>
+
           <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2021 - 2021"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
+            className="vertical-timeline-element--education"
+            contentStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            contentArrowStyle={{ borderRight: '7px solid  white' }}
+            date="September 2021 - December 2025"
+            iconStyle={{ background: 'white', color: 'rgb(39, 40, 34)' }}
+            icon={<img src={ucdavisLogo} alt="UC Davis College of Engineering" style={{ width: '100%', height: '100%', objectFit: 'contain' }} />}
           >
-            <h3 className="vertical-timeline-element-title">Staff Engineer Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Laie, HI</h4>
+            <h3 className="vertical-timeline-element-title">B.S. Electrical Engineering</h3>
+            <h4 className="vertical-timeline-element-subtitle">University of California, Davis</h4>
             <p>
-              Full-stack Development, API Development, User Experience
-            </p>
-          </VerticalTimelineElement>
-          <VerticalTimelineElement
-            className="vertical-timeline-element--work"
-            date="2020 - 2020"
-            iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
-            icon={<FontAwesomeIcon icon={faBriefcase} />}
-          >
-            <h3 className="vertical-timeline-element-title">Data Analyst Intern</h3>
-            <h4 className="vertical-timeline-element-subtitle">Tokyo, Japan</h4>
-            <p>
-              Automation, Data Governance, Statistical Analysis
+            Data Structures, Algorithms, Computer Architecture, Embedded Systems, Signals and Systems, Linear Systems, Probability and Statistics, Digital Signal Processing, Control Systems
             </p>
           </VerticalTimelineElement>
         </VerticalTimeline>

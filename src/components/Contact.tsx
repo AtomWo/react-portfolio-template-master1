@@ -1,13 +1,12 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
 import TextField from '@mui/material/TextField';
 
 function Contact() {
-
   const [name, setName] = useState<string>('');
   const [email, setEmail] = useState<string>('');
   const [message, setMessage] = useState<string>('');
@@ -25,28 +24,88 @@ function Contact() {
     setEmailError(email === '');
     setMessageError(message === '');
 
-    /* Uncomment below if you want to enable the emailJS */
+    if (name !== '' && email !== '' && message !== '') {
+      emailjs.init("ILCI380lv9jnGwr1m"); // Public key
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
+      const templateParams = {
+        from_name: name,
+        from_email: email,
+        message: message,
+        to_name: "Adam Wong",
+        to_email: "adamwongsta03@gmail.com"
+      };
 
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+      emailjs.send(
+        'service_6ginij1', // Your EmailJS service ID
+        'template_w0sjen2', // Your EmailJS template ID
+        templateParams
+      ).then(
+        (response) => {
+          console.log("SUCCESS!", response.status, response.text);
+          alert("Message sent successfully!");
+          setName('');
+          setEmail('');
+          setMessage('');
+        },
+        (error) => {
+          console.log("FAILED...", error);
+          alert("Failed to send message. Please try again.");
+        }
+      );
+    }
+  };
+
+  const textFieldSx = {
+    // Target the actual input element more specifically
+    '& .MuiInputBase-input': { 
+      color: '#000000 !important',
+      backgroundColor: 'white !important',
+      WebkitTextFillColor: '#000000 !important',
+      opacity: '1 !important',
+      zIndex: 2
+    },
+    '& .MuiInputBase-input::placeholder': {
+      color: '#666666 !important', // Much darker placeholder text
+      opacity: '1 !important',
+      fontWeight: '400 !important'
+    },
+    '& input::placeholder': {
+      color: '#666666 !important',
+      opacity: '1 !important'
+    },
+    '& textarea::placeholder': {
+      color: '#666666 !important',
+      opacity: '1 !important'
+    },
+    '& .MuiOutlinedInput-root': {
+      backgroundColor: 'white !important',
+      '& fieldset': { 
+        backgroundColor: 'white !important', // Override your SCSS
+        borderColor: 'rgba(0, 0, 0, 0.3) !important'
+      },
+      '&:hover fieldset': { 
+        backgroundColor: 'white !important',
+        borderColor: 'rgba(0, 0, 0, 0.5) !important'
+      },
+      '&.Mui-focused fieldset': {
+        backgroundColor: 'white !important',
+        borderColor: 'rgba(0, 0, 0, 0.8) !important'
+      }
+    },
+    '& .MuiFormHelperText-root': { 
+      color: 'rgba(255, 255, 255, 0.8) !important'
+    },
+    // Override any potential conflicts from SCSS
+    '& input': {
+      color: '#000000 !important',
+      backgroundColor: 'white !important',
+      WebkitTextFillColor: '#000000 !important'
+    },
+    '& textarea': {
+      color: '#000000 !important',
+      backgroundColor: 'white !important',
+      WebkitTextFillColor: '#000000 !important'
+    }
   };
 
   return (
@@ -74,6 +133,7 @@ function Contact() {
                 }}
                 error={nameError}
                 helperText={nameError ? "Please enter your name" : ""}
+                sx={textFieldSx}
               />
               <TextField
                 required
@@ -86,6 +146,7 @@ function Contact() {
                 }}
                 error={emailError}
                 helperText={emailError ? "Please enter your email or phone number" : ""}
+                sx={textFieldSx}
               />
             </div>
             <TextField
@@ -102,6 +163,7 @@ function Contact() {
               }}
               error={messageError}
               helperText={messageError ? "Please enter the message" : ""}
+              sx={textFieldSx}
             />
             <Button variant="contained" endIcon={<SendIcon />} onClick={sendEmail}>
               Send
