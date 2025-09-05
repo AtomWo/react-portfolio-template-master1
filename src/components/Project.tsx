@@ -5,7 +5,7 @@ import PAN from '../assets/images/PAN.png';
 import ML from '../assets/images/ML.png';
 import auto from '../assets/images/AUTO.png';
 import cake from '../assets/images/cake.png';
-
+import lol from '../assets/images/lol.png';
 
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
@@ -44,6 +44,11 @@ function Project() {
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><img src={CAN} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://yujisatojr.itch.io/spacecraft" target="_blank" rel="noreferrer"><h2>CAN Breakout Board (Formula Racing) </h2></a>
                 <p>Utilizing Altium Designer for the block diagram, schematic capture, and layout design of the Formula SAE racecar’s PCBs enabling real-time communication between ECUs for CAN protocol and loopback testing logic.</p>
+            </div>
+            <div className="project">
+                <a href="https://devpost.com/software/unitrans-bus-tracker" target="_blank" rel="noreferrer"><img src={lol} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://devpost.com/software/unitrans-bus-tracker" target="_blank" rel="noreferrer"><h2>Unitrans Bus Tracker 2.0 </h2></a>
+                <p>Engineered a Raspberry Pi–based real-time bus tracking system integrating GPS and data processing to optimize public transport efficiency, improve passenger experience, and enable precise transportation management.</p>
             </div>
         </div>
     </div>
