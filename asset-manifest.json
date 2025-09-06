@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/AtomWo/react-portfolio-template-master1/static/css/main.a783b97f.css",
-    "main.js": "/AtomWo/react-portfolio-template-master1/static/js/main.53f78c4e.js",
-    "static/js/453.c6b18abc.chunk.js": "/AtomWo/react-portfolio-template-master1/static/js/453.c6b18abc.chunk.js",
+    "main.css": "/AtomWo/react-portfolio-template-master1/static/css/main.a8c12b24.css",
+    "main.js": "/AtomWo/react-portfolio-template-master1/static/js/main.f5285dc9.js",
+    "static/js/453.2c342c3b.chunk.js": "/AtomWo/react-portfolio-template-master1/static/js/453.2c342c3b.chunk.js",
     "static/media/lol.png": "/AtomWo/react-portfolio-template-master1/static/media/lol.1cf1f98d1161b0c5aa20.png",
     "static/media/Smart.jpg": "/AtomWo/react-portfolio-template-master1/static/media/Smart.83b5681275f1cbe22c49.jpg",
     "static/media/ML.png": "/AtomWo/react-portfolio-template-master1/static/media/ML.cfea4d6f7202eeee6c61.png",
@@ -14,12 +14,12 @@
     "static/media/Logo_Bayer.svg.png": "/AtomWo/react-portfolio-template-master1/static/media/Logo_Bayer.svg.93ab72e5fc1a57fa70f9.png",
     "static/media/GAF_Energy_logo.png": "/AtomWo/react-portfolio-template-master1/static/media/GAF_Energy_logo.e8778a8de0c6dfba4e6a.png",
     "index.html": "/AtomWo/react-portfolio-template-master1/index.html",
-    "main.a783b97f.css.map": "/AtomWo/react-portfolio-template-master1/static/css/main.a783b97f.css.map",
-    "main.53f78c4e.js.map": "/AtomWo/react-portfolio-template-master1/static/js/main.53f78c4e.js.map",
-    "453.c6b18abc.chunk.js.map": "/AtomWo/react-portfolio-template-master1/static/js/453.c6b18abc.chunk.js.map"
+    "main.a8c12b24.css.map": "/AtomWo/react-portfolio-template-master1/static/css/main.a8c12b24.css.map",
+    "main.f5285dc9.js.map": "/AtomWo/react-portfolio-template-master1/static/js/main.f5285dc9.js.map",
+    "453.2c342c3b.chunk.js.map": "/AtomWo/react-portfolio-template-master1/static/js/453.2c342c3b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a783b97f.css",
-    "static/js/main.53f78c4e.js"
+    "static/css/main.a8c12b24.css",
+    "static/js/main.f5285dc9.js"
   ]
 }
