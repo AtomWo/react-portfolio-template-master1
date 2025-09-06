@@ -1,27 +1,25 @@
 {
   "files": {
-    "main.css": "/react-portfolio-template-master1/static/css/main.6393e5ba.css",
-    "main.js": "/react-portfolio-template-master1/static/js/main.5b93e680.js",
-    "static/js/453.c6b18abc.chunk.js": "/react-portfolio-template-master1/static/js/453.c6b18abc.chunk.js",
-    "static/media/mock10.png": "/react-portfolio-template-master1/static/media/mock10.2d05b02ba569a430a255.png",
-    "static/media/mock09.png": "/react-portfolio-template-master1/static/media/mock09.e18677ccfc932e52d754.png",
-    "static/media/mock08.png": "/react-portfolio-template-master1/static/media/mock08.13f46873fdbd382f4b76.png",
-    "static/media/mock04.png": "/react-portfolio-template-master1/static/media/mock04.f7b5679efade992a078c.png",
-    "static/media/bg-light.png": "/react-portfolio-template-master1/static/media/bg-light.bac0efb485244a522981.png",
-    "static/media/mock07.png": "/react-portfolio-template-master1/static/media/mock07.3f1110f482232b33c6a2.png",
-    "static/media/mock05.png": "/react-portfolio-template-master1/static/media/mock05.4faafa70d200d1519a34.png",
-    "static/media/mock06.png": "/react-portfolio-template-master1/static/media/mock06.ea816617e0d0fa0f63ca.png",
-    "static/media/bg-dark.png": "/react-portfolio-template-master1/static/media/bg-dark.f420c6b8458af72de935.png",
-    "static/media/mock01.png": "/react-portfolio-template-master1/static/media/mock01.61bd486a54bf6e17ee5a.png",
-    "static/media/mock02.png": "/react-portfolio-template-master1/static/media/mock02.bced48ae9cdda3acf1a3.png",
-    "static/media/mock03.png": "/react-portfolio-template-master1/static/media/mock03.a4600719e0b5d2a3155b.png",
-    "index.html": "/react-portfolio-template-master1/index.html",
-    "main.6393e5ba.css.map": "/react-portfolio-template-master1/static/css/main.6393e5ba.css.map",
-    "main.5b93e680.js.map": "/react-portfolio-template-master1/static/js/main.5b93e680.js.map",
-    "453.c6b18abc.chunk.js.map": "/react-portfolio-template-master1/static/js/453.c6b18abc.chunk.js.map"
+    "main.css": "/AtomWo/react-portfolio-template-master1/static/css/main.a783b97f.css",
+    "main.js": "/AtomWo/react-portfolio-template-master1/static/js/main.53f78c4e.js",
+    "static/js/453.c6b18abc.chunk.js": "/AtomWo/react-portfolio-template-master1/static/js/453.c6b18abc.chunk.js",
+    "static/media/lol.png": "/AtomWo/react-portfolio-template-master1/static/media/lol.1cf1f98d1161b0c5aa20.png",
+    "static/media/Smart.jpg": "/AtomWo/react-portfolio-template-master1/static/media/Smart.83b5681275f1cbe22c49.jpg",
+    "static/media/ML.png": "/AtomWo/react-portfolio-template-master1/static/media/ML.cfea4d6f7202eeee6c61.png",
+    "static/media/cake.png": "/AtomWo/react-portfolio-template-master1/static/media/cake.29ef484d9188b81e4198.png",
+    "static/media/bg-light.png": "/AtomWo/react-portfolio-template-master1/static/media/bg-light.bac0efb485244a522981.png",
+    "static/media/profilepic.png": "/AtomWo/react-portfolio-template-master1/static/media/profilepic.a5f39316f2aac2e05e31.png",
+    "static/media/bg-dark.png": "/AtomWo/react-portfolio-template-master1/static/media/bg-dark.f420c6b8458af72de935.png",
+    "static/media/CAN.png": "/AtomWo/react-portfolio-template-master1/static/media/CAN.cc37f66fe02ea139e85c.png",
+    "static/media/Logo_Bayer.svg.png": "/AtomWo/react-portfolio-template-master1/static/media/Logo_Bayer.svg.93ab72e5fc1a57fa70f9.png",
+    "static/media/GAF_Energy_logo.png": "/AtomWo/react-portfolio-template-master1/static/media/GAF_Energy_logo.e8778a8de0c6dfba4e6a.png",
+    "index.html": "/AtomWo/react-portfolio-template-master1/index.html",
+    "main.a783b97f.css.map": "/AtomWo/react-portfolio-template-master1/static/css/main.a783b97f.css.map",
+    "main.53f78c4e.js.map": "/AtomWo/react-portfolio-template-master1/static/js/main.53f78c4e.js.map",
+    "453.c6b18abc.chunk.js.map": "/AtomWo/react-portfolio-template-master1/static/js/453.c6b18abc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6393e5ba.css",
-    "static/js/main.5b93e680.js"
+    "static/css/main.a783b97f.css",
+    "static/js/main.53f78c4e.js"
   ]
 }
